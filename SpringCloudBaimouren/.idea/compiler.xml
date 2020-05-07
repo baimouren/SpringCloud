@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-consumer-order" />
+        <module name="cloud-consumerconsul-order" />
+        <module name="cloud-eureka-server" />
+        <module name="SpringCloudShangGuiGu" />
+        <module name="cloud-provider-payment" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-consumerconsul-order" target="1.8" />
+      <module name="cloud-eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-api-commons" options="" />
+      <module name="cloud-consumer-order" options="" />
+      <module name="cloud-consumerconsul-order" options="-parameters" />
+      <module name="cloud-eureka-server" options="-parameters" />
+      <module name="cloud-provider-payment" options="" />
+    </option>
+  </component>
+</project>

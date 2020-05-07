@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08ec931b-3dbf-4439-8eac-9cc88c37ba08" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1bCwCkccOkUvgMra8rCpK1bQmS9" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.order.myrule" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\IntelliJ_IDEA\WorkSpace\home\SpringCLoud\SpringCloudBaimouren\sql" />
+      <recent name="D:\Work\IntelliJ_IDEA\WorkSpace\home\SpringCLoud\SpringCloudBaimouren\cloud-provider-payment\src\main\resources" />
+      <recent name="D:\Work\IntelliJ_IDEA\WorkSpace\home\SpringCLoud\SpringCloudBaimouren\cloud-consumer-order\src\main\java\com\atguigu\order" />
+      <recent name="D:\Work\IntelliJ_IDEA\WorkSpace\home\SpringCLoud\SpringCloudBaimouren\cloud-provider-payment\src\main\java\com\atguigu\payment" />
+      <recent name="D:\Work\IntelliJ_IDEA\WorkSpace\home\SpringCLoud\SpringCloudBaimouren\cloud-consumer-order\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-api-commons" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.common.CommonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication(1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="cloud-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.eureka.EurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="7002" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="eureka.instance.hostname" />
+          <option name="value" value="eureka7002.com" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="eureka.client.service-url.defaultZone" />
+          <option name="value" value="http://eureka7001.com:7001/eureka" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.order.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.payment.PaymentApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8002" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="eureka.instance.instance-id" />
+          <option name="value" value="payment8002" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.payment.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:\Work\JDK1.8\JDK">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SpringCloudBaimouren" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8743" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.PaymentApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication(1)" />
+      <item itemvalue="Spring Boot.PaymentApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PaymentApplication" />
+        <item itemvalue="Spring Boot.PaymentApplication (1)" />
+        <item itemvalue="Spring Boot.EurekaApplication(1)" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08ec931b-3dbf-4439-8eac-9cc88c37ba08" name="Default Changelist" comment="" />
+      <created>1588149257487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588149257487</updated>
+      <workItem from="1588149258965" duration="94000" />
+      <workItem from="1588149554857" duration="36000" />
+      <workItem from="1588149645228" duration="2206000" />
+      <workItem from="1588209836446" duration="853000" />
+      <workItem from="1588210757447" duration="4698000" />
+      <workItem from="1588215918749" duration="12364000" />
+      <workItem from="1588730260766" duration="16450000" />
+      <workItem from="1588814480890" duration="7868000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="113" key="#EurekaApplication" timestamp="1588753858693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="747" y="219" key="#EurekaApplication(1)" timestamp="1588817189248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="747" y="219" key="#EurekaApplication(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1588817189248" />
+    <state x="590" y="113" key="#EurekaApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1588753858693" />
+    <state x="632" y="127" key="#EurekaApplication_(1)" timestamp="1588751797000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="127" key="#EurekaApplication_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1588751797000" />
+    <state x="590" y="113" key="#EurekaApplication_(2)" timestamp="1588750908432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="113" key="#EurekaApplication_(2)/0.0.1920.1040@0.0.1920.1040" timestamp="1588750908432" />
+    <state x="590" y="113" key="#EurekaApplication_7002" timestamp="1588752892336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="113" key="#EurekaApplication_7002/0.0.1920.1040@0.0.1920.1040" timestamp="1588752892336" />
+    <state x="586" y="198" key="#Inspections" timestamp="1588216282667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1588216282667" />
+    <state x="967" y="114" key="#PaymentApplication_(1)" timestamp="1588816496046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="967" y="114" key="#PaymentApplication_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1588816496046" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1588211555353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1588211555353" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588744836984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588744836984" />
+    <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588750621188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588750621188" />
+    <state width="434" height="466" key="DebuggerActiveHint" timestamp="1588744802845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="434" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1588744802845" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1588214749877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588214749877" />
+    <state width="1444" height="369" key="GridCell.Tab.0.bottom" timestamp="1588819249937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249937" />
+    <state width="1444" height="369" key="GridCell.Tab.0.center" timestamp="1588819249937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249937" />
+    <state width="1444" height="369" key="GridCell.Tab.0.left" timestamp="1588819249936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249936" />
+    <state width="1444" height="369" key="GridCell.Tab.0.right" timestamp="1588819249937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249937" />
+    <state width="1444" height="369" key="GridCell.Tab.1.bottom" timestamp="1588819249800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249800" />
+    <state width="1444" height="369" key="GridCell.Tab.1.center" timestamp="1588819249800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249800" />
+    <state width="1444" height="369" key="GridCell.Tab.1.left" timestamp="1588819249799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249799" />
+    <state width="1444" height="369" key="GridCell.Tab.1.right" timestamp="1588819249800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249800" />
+    <state width="1444" height="369" key="GridCell.Tab.2.bottom" timestamp="1588819249800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249800" />
+    <state width="1444" height="369" key="GridCell.Tab.2.center" timestamp="1588819249800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249800" />
+    <state width="1444" height="369" key="GridCell.Tab.2.left" timestamp="1588819249800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249800" />
+    <state width="1444" height="369" key="GridCell.Tab.2.right" timestamp="1588819249800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1444" height="369" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588819249800" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1588732898226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588732898226" />
+    <state x="543" y="349" key="Maven.ArtifactSearchDialog" timestamp="1588226627027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="543" y="349" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588226627027" />
+    <state x="600" y="223" key="NewModule_or_Project.wizard" timestamp="1588210113585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588210113585" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1588733534546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588733534546" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588746914086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588746914086" />
+    <state x="483" y="238" width="944" height="584" key="find.popup" timestamp="1588816622626">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="238" width="944" height="584" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588816622626" />
+    <state x="334" y="180" key="new project wizard" timestamp="1588818499953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588818499953" />
+    <state x="909" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1588749793201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="909" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588749793201" />
+  </component>
+</project>
